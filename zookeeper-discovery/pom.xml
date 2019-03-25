@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <artifactId>zookeeper-discovery</artifactId>
 
-    <artifactId>zookeeper-client</artifactId>
 
     <dependencies>
         <dependency>
@@ -28,6 +28,7 @@
             </plugin>
         </plugins>
     </build>
+
 
 
 </project>

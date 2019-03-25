@@ -13,8 +13,7 @@
     <modules>
         <module>provider-api</module>
         <module>rest-api</module>
-        <module>zookeeper-client</module>
-        <module>provider-api</module>
+        <module>zookeeper-discovery</module>
     </modules>
 
 

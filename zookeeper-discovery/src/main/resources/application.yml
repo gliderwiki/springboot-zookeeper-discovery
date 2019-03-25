@@ -4,7 +4,6 @@ spring:
       connect-string: localhost:2181
 logging:
   level:
-    root: DEBUG
     org.apache.zookeeper.ClientCnxn: WARN
 server:
-  port: 9000
+  port: 8090
