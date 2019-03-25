@@ -1,9 +1,3 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea/compiler.xml
-.idea/encodings.xml
-.idea/misc.xml
-.idea/sbt.xml
-.idea/uiDesigner.xml
-.idea/workspace.xml
 
-/.idea/vcs.xml
+/.idea/

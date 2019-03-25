@@ -1,4 +1,4 @@
-package example;
+package com.libqa;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
