@@ -8,10 +8,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableFeignClients
 @EnableDiscoveryClient
-public class HelloWorldClient {
+public class RouteDiscoveryClient {
 	
 	@Autowired
-	private HelloWorldFeignClient feign;
+	private RouteFeignClient feign;
 	
 	public String helloWorld() {
 		return feign.helloWorld();

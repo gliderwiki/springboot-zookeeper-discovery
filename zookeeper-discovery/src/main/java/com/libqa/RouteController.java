@@ -5,24 +5,24 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class GreetingController {
+public class RouteController {
 	
 	@Autowired
-	private HelloWorldClient helloWorldClient;
+	private RouteDiscoveryClient routeDiscoveryClient;
 	
-	@GetMapping("/get-greeting")
+	@GetMapping("/helloworld")
 	public String greetings() {
-		return helloWorldClient.helloWorld();
+		return routeDiscoveryClient.helloWorld();
 	}
 	
 	@GetMapping("/name")
 	public String name() {
-		return helloWorldClient.name();
+		return routeDiscoveryClient.name();
 	}
 	
 	@GetMapping("/product")
 	public String product() {
-		return helloWorldClient.product();
+		return routeDiscoveryClient.product();
 	}
 
 }

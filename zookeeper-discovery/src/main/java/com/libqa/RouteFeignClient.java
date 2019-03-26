@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @FeignClient(name = "zookeeper-provider")
-public interface HelloWorldFeignClient {
+public interface RouteFeignClient {
 	
 	@RequestMapping(path = "/helloworld", method = RequestMethod.GET)
     @ResponseBody
