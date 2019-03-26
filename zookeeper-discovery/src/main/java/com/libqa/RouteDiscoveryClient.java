@@ -27,8 +27,8 @@ public class RouteDiscoveryClient {
 		return feign.product();
 	}
 
-	public List<String> services() {
-		return feign.services();
+	public List<String> sersviceList() {
+		return feign.serviceList();
 	}
 
 }

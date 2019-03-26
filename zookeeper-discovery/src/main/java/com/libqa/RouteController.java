@@ -11,9 +11,9 @@ public class RouteController {
 	
 	@Autowired
 	private RouteDiscoveryClient routeDiscoveryClient;
-	
+
 	@GetMapping("/helloworld")
-	public String greetings() {
+	public String helloWorld() {
 		return routeDiscoveryClient.helloWorld();
 	}
 	
@@ -27,9 +27,9 @@ public class RouteController {
 		return routeDiscoveryClient.product();
 	}
 
-	@GetMapping("/services")
+	@GetMapping("/service-list")
 	public List<String> services() {
-		return routeDiscoveryClient.services();
+		return routeDiscoveryClient.sersviceList();
 	}
 
 }

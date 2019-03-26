@@ -48,7 +48,9 @@ and access the project below.
 http://localhost:8080/product
 http://localhost:8080/helloworld
 http://localhost:8080/name
-http://localhost:8080/services
+http://localhost:8080/service-list
+
+http://localhost:8080/hello
 ```
 
 

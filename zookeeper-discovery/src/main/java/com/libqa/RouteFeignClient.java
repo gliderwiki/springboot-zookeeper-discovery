@@ -21,7 +21,7 @@ public interface RouteFeignClient {
     @ResponseBody
 	String product();
 
-	@RequestMapping(path = "/services", method = RequestMethod.GET)
+	@RequestMapping(path = "/service-list", method = RequestMethod.GET)
 	@ResponseBody
-	List<String> services();
+	List<String> serviceList();
 }

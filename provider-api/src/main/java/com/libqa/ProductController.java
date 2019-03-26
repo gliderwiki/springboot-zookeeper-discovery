@@ -27,8 +27,8 @@ public class ProductController {
 		return "provider1-product";
 	}
 
-	@GetMapping("/services")
-	public List<String> services() {
+	@GetMapping("/service-list")
+	public List<String> serviceList() {
 		List<ServiceInstance> instances = discoveryClient.getInstances(instanceName);
 
 		List<String> services = discoveryClient.getServices();
