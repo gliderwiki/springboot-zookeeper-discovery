@@ -45,9 +45,10 @@ run all the projects (rest-api, provider-api, zookeeper-discovery) *Application.
 and access the project below. 
 
 ```
-http://localhost:8090/product
-http://localhost:8090/get-greeting
-http://localhost:8090/name
+http://localhost:8080/product
+http://localhost:8080/helloworld
+http://localhost:8080/name
+http://localhost:8080/services
 ```
 
 

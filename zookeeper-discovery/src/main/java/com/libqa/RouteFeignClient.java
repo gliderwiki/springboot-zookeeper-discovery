@@ -4,6 +4,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.List;
+
 @FeignClient(name = "zookeeper-provider")
 public interface RouteFeignClient {
 	
@@ -18,4 +20,8 @@ public interface RouteFeignClient {
 	@RequestMapping(path = "/product", method = RequestMethod.GET)
     @ResponseBody
 	String product();
+
+	@RequestMapping(path = "/services", method = RequestMethod.GET)
+	@ResponseBody
+	List<String> services();
 }
